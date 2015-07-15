@@ -17,6 +17,7 @@ public class WorldTest {
 			  + "3 ..........\n" + "4 ...X..X...\n" + "5 .......X..\n" + "6 ...XX..X.X\n"
 			  + "7 .....X....\n" + "8 ..........\n" + "9 X.........\n";
 			assertEquals(expected, observed);
+			
 			}
 	
 	    
@@ -79,6 +80,7 @@ public class WorldTest {
 	    	+ "8 X.....X..........X..........X.XXX.................\n"
 	    	+ "9 .....X...X..........X..X........X..............X..\n";
 		    assertEquals(expected, observed);
+		    
 		}
 
 	   
@@ -98,27 +100,9 @@ public class WorldTest {
 			  + "7 XXXXXXXXXX\n"
 			  + "8 XXXXXXXXXX\n"
 			  + "9 XXXXXXXXXX\n";
-		    assertEquals(expected, observed);
-		    
-	
+		    assertEquals(expected, observed);   	  
 			  
-			  
-			  
-	   }
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+	   }		
 			
 			
 			
