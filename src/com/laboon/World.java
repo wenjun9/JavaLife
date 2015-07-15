@@ -3,6 +3,30 @@ package com.laboon;
 import java.util.Random;
 
 public class World {
+	
+	
+	
+//	fix the code about most cost self time 
+	
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("  ");
+		for (int j= 0; j < _size; j++) {
+			sb.append(String.valueOf(j % 10));
+		}
+		sb.append("\n");
+		for (int j = 0; j < _size; j++ ) {
+			sb.append(String.valueOf(j % 10) + " ");
+			for (int k = 0; k < _size; k++) {
+				sb.append(_world[j][k].getStateRep());
+			}
+			sb.append("\n");
+		}
+		return sb.toString();
+		
+	}
+	
+	
 
 	/**
 	 * Size of the world
@@ -114,22 +138,7 @@ public class World {
 	 * @return String representation of world
 	 */
 	
-	public String toString() {
-		StringBuilder sb = new StringBuilder();
-		sb.append("  ");
-		for (int j= 0; j < _size; j++) {
-			sb.append(String.valueOf(j % 10));
-		}
-		sb.append("\n");
-		for (int j = 0; j < _size; j++ ) {
-			sb.append(String.valueOf(j % 10) + " ");
-			for (int k = 0; k < _size; k++) {
-				sb.append(_world[j][k].getStateRep());
-			}
-			sb.append("\n");
-		}
-		return sb.toString();
-	}
+
 	
 //	public String toString() {
 //		String toReturn = "  ";
