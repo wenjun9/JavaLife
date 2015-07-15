@@ -138,8 +138,8 @@ public class World {
 	 * @return String representation of world
 	 */
 	
-
-	
+//
+//	
 //	public String toString() {
 //		String toReturn = "  ";
 //		for (int j= 0; j < _size; j++) {
@@ -155,7 +155,7 @@ public class World {
 //		}
 //		return toReturn;
 //	}
-	
+//	
 	/**
 	 * Generate initial game board.
 	 * @param size Size of board
