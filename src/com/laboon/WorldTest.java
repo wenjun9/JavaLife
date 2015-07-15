@@ -81,6 +81,45 @@ public class WorldTest {
 		    assertEquals(expected, observed);
 		}
 
-
 	   
+	   @Test
+	   public void testWorld3() {
+			World w = new World(10, 100, 100);
+			String observed = w.toString();
+		    String expected =
+			  "  0123456789\n"
+			  + "0 XXXXXXXXXX\n"
+			  + "1 XXXXXXXXXX\n"
+			  + "2 XXXXXXXXXX\n"
+			  + "3 XXXXXXXXXX\n"
+			  + "4 XXXXXXXXXX\n"
+			  + "5 XXXXXXXXXX\n"
+			  + "6 XXXXXXXXXX\n"
+			  + "7 XXXXXXXXXX\n"
+			  + "8 XXXXXXXXXX\n"
+			  + "9 XXXXXXXXXX\n";
+		    assertEquals(expected, observed);
+		    
+	
+			  
+			  
+			  
+	   }
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 }
