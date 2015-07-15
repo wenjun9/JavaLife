@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/wenjun/Documents/elicpseWorkPlace/test libraries/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="/Users/wenjun/Documents/elicpseWorkPlace/test libraries/mockito-1.9.5/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
